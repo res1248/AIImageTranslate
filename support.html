@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Image Translate</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9fb;
+      color: #1c1c1e;
+      line-height: 1.7;
+      padding: 0 16px 80px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #7366e6 0%, #8c72f2 100%);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+      margin: 0 -16px 40px;
+    }
+
+    header h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 8px; opacity: 0.85; font-size: 0.95rem; }
+
+    .container { max-width: 720px; margin: 0 auto; }
+
+    section {
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+
+    h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #1c1c1e; }
+
+    p, li { font-size: 0.95rem; color: #3a3a3c; }
+    p + p { margin-top: 10px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    a { color: #7366e6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .chip {
+      display: inline-block; background: #f0eeff; color: #7366e6;
+      border-radius: 8px; padding: 2px 10px; font-size: 0.82rem;
+      font-weight: 600; margin-bottom: 12px;
+    }
+
+    .faq-item { margin-bottom: 20px; }
+    .faq-item:last-child { margin-bottom: 0; }
+    .faq-q { font-weight: 700; color: #1c1c1e; font-size: 0.95rem; margin-bottom: 4px; }
+    .faq-a { font-size: 0.95rem; color: #3a3a3c; }
+
+    .contact-box {
+      background: #f0eeff;
+      border-radius: 12px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .contact-icon {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, #7366e6, #8c72f2);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      font-size: 1.3rem;
+    }
+
+    .contact-box p { font-size: 0.9rem; color: #3a3a3c; }
+    .contact-box strong { color: #1c1c1e; }
+
+    footer { text-align: center; font-size: 0.82rem; color: #8e8e93; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Support</h1>
+  <p>Image Translate &nbsp;·&nbsp; We're here to help</p>
+</header>
+
+<div class="container">
+
+  <!-- How it works -->
+  <section>
+    <span class="chip">How It Works</span>
+    <ul>
+      <li>Tap the image area or the photo icon to select a photo from your library.</li>
+      <li>Choose the language you want the text translated into.</li>
+      <li>Optionally select an aspect ratio to crop the image.</li>
+      <li>Tap <strong>Translate</strong> and wait a few seconds.</li>
+      <li>Your translated image appears with the text replaced in place.</li>
+      <li>Save the result to your Photos library using the download icon.</li>
+    </ul>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <p class="faq-q">Why is my translation taking a long time?</p>
+      <p class="faq-a">Translation requires sending your image to our server for AI processing. This typically takes 5–15 seconds depending on image complexity and your internet connection. Please ensure you have a stable connection.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">The translation result doesn't look accurate. What can I do?</p>
+      <p class="faq-a">AI translations work best on clear, well-lit images with readable text. Try using a higher quality photo, ensuring the text is not blurry or obscured, and cropping tightly around the text area before translating.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Can I translate text from screenshots?</p>
+      <p class="faq-a">Yes. Any image in your photo library — including screenshots — can be used. Simply select it from your library and proceed normally.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How do I restore my subscription after reinstalling?</p>
+      <p class="faq-a">Open the app, tap the crown icon to open the upgrade screen, then tap <strong>Restore Purchases</strong> at the bottom. Make sure you are signed in to the same Apple ID used for the original purchase.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How do I cancel my subscription?</p>
+      <p class="faq-a">Subscriptions are managed through Apple. Go to <strong>Settings → [Your Name] → Subscriptions</strong> on your iPhone or iPad, find Image Translate, and tap Cancel Subscription.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Is my data private? Are my photos stored?</p>
+      <p class="faq-a">Your photos are transmitted securely to our server only to perform the translation and are deleted immediately afterwards. We never store your images. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How do I delete my translation history?</p>
+      <p class="faq-a">Your translation history is stored only on your device. You can clear it from within the History tab in the app. Deleting the app also removes all local data.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Which languages are supported?</p>
+      <p class="faq-a">Image Translate currently supports 22 languages: English, Spanish, French, German, Italian, Portuguese, Japanese, Chinese (Simplified &amp; Traditional), Korean, Arabic, Russian, Hindi, Dutch, Polish, Turkish, Vietnamese, Thai, Swedish, Indonesian, Ukrainian, and Malay.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact Support</h2>
+    <p style="margin-bottom: 16px;">
+      Didn't find an answer above? Send us an email and we'll get back to you as soon as possible.
+    </p>
+    <div class="contact-box">
+      <div class="contact-icon">✉️</div>
+      <div>
+        <strong>Email Support</strong>
+        <p><a href="mailto:zain.reachout@gmail.com">zain.reachout@gmail.com</a></p>
+        <p style="font-size:0.82rem; color:#8e8e93; margin-top:2px;">Typical response time: 1–2 business days</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal links -->
+  <section>
+    <h2>Legal</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li style="margin-bottom: 8px;"><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Use</a></li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2026 Zain UL Abideen &nbsp;·&nbsp; Image Translate
+</footer>
+
+</body>
+</html>
